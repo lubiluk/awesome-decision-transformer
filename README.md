@@ -19,7 +19,9 @@ Welcome to follow and star!
 - [Papers](#papers)
 
   - [Arxiv](#arxiv)
-  - [NeurIPS 2025](#neurips-2025) (**<font color="red">New!!!</font>**)
+  - [ICML 2026](#icml-2026) (**<font color="red">New!!!</font>**)
+  - [ICLR 2026](#iclr-2026) (**<font color="red">New!!!</font>**)
+  - [NeurIPS 2025](#neurips-2025)
   - [ICML 2025](#icml-2025) 
   - [ICLR 2025](#iclr-2025)
   - [NeurIPS 2024](#neurips-2024) 
@@ -179,6 +181,92 @@ format:
 - [Attention-Based Learning for Combinatorial Optimization](https://dspace.mit.edu/bitstream/handle/1721.1/144893/Smith-smithcj-meng-eecs-2022-thesis.pdf?sequence=1&isAllowed=y)
     - Carson Smith
     - Key: Combinatorial Optimization
+
+### ICML 2026
+
+- [Decision Transformers As Zero-Shot Learners via Text-Behavior Alignment](https://icml.cc/virtual/2026/poster/62096)
+  - Xin Zhang, Jonathan Martinez, Yanhua Li, Yingxue Zhang
+  - Key: Decision Transformer, offline meta-RL, text conditioning, zero-shot
+  - ExpEnv: MetaWorld, MuJoCo
+
+- [Unsupervised Partner Design Enables Robust Ad-hoc Teamwork](https://arxiv.org/abs/2508.06336)
+  - Constantin Ruhdorfer, Matteo Bortoletto, Victor Oei, Anna Penzkofer, Andreas Bulling
+  - Key: Ad-hoc teamwork, In-context coordination, Multi-agent RL
+  - ExpEnv: LBF, Overcooked, OvercookedAI
+
+- [Behavior-Invariant Task Representation Learning with Transformer-based World Models for Offline Meta-Reinforcement Learning](https://icml.cc/virtual/2026/poster/61775)
+  - Fuyuan Qian, Menglong Zhang, Song Wang, Quanying Liu
+  - Key: Transformer World Model, Behavior-Invariant, Offline Meta-RL, Task Representation
+  - ExpEnv: offline meta-RL benchmarks
+
+- [Benchmarking the Limits of In-Context Reinforcement Learning for Ad-Hoc Teamwork](https://icml.cc/virtual/2026/poster/65339)
+  - Yuheng Jing, Kai Li, Jiajun Zhang, Zeyao Ma, Jiaxi Yang, Lei Zhang, Zhe Wu, Jinmin He, Junliang Xing, Jian Cheng
+  - Key: In-Context RL, Ad-Hoc Teamwork, Benchmark, Multi-Agent
+  - ExpEnv: Overcooked-V2
+
+- [Improving Zero-Shot Offline RL via Behavioral Task Sampling](https://arxiv.org/abs/2604.25496)
+  - Nazim Bendib, Nicolas Perrin-Gilbert, Olivier Sigaud
+  - Key: Zero-Shot Offline RL, Behavioral Task Sampling, Meta-RL
+  - ExpEnv: offline meta-RL benchmarks
+
+- [QHyer: Q-conditioned Hybrid Attention-Mamba Transformer for Offline Goal-Conditioned RL](https://arxiv.org/abs/2605.01862)
+  - Xing Lei, Jincheng Wang, Xuetao Zhang, Donglin Wang
+  - Key: Decision Transformer, Q-Conditioned, Mamba, Offline Goal-Conditioned RL
+  - ExpEnv: offline goal-conditioned RL benchmarks
+
+- [Return-to-Go Is More Than a Number: Q-Guided Alignment for Return-Conditioned Supervised Learning](https://icml.cc/virtual/2026/poster/62141)
+  - Yuxiao Yang, Weitong Zhang
+  - Key: Return-to-Go, Decision Transformer, Q-Guided Alignment, Offline RL
+  - ExpEnv: D4RL
+
+- [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks](https://icml.cc/virtual/2026/poster/61251)
+  - Paulius Sasnauskas, Yiğit Yalın, Goran Radanovic
+  - Key: In-Context RL, Robustness, Reward Poisoning, Transformer
+  - ExpEnv: in-context RL benchmarks
+
+
+### ICLR 2026
+
+- [Vintix II: Decision Pre-Trained Transformer is a Scalable In-Context Reinforcement Learner](https://openreview.net/forum?id=t6roJiPN6Y)
+  - Andrei Polubarov, Nikita Lyubaykin, Alexander Derevyagin, Artyom Grishin, Igor Saprygin, Aleksandr Serkov, Mark Averchenko, Daniil Tikhonov, Maksim Zhdanov, Alexander Nikulin, Ilya Zisman, Albina Klepach, Alexey Zemtsov, Vladislav Kurenkov
+  - Key: In-Context RL, Decision-Pretrained Transformer, Algorithm Distillation, Flow Matching, Bayesian Posterior Sampling
+  - ExpEnv: multi-domain ICRL benchmarks
+
+- [Reward Is Enough: LLMs Are In-Context Reinforcement Learners](https://openreview.net/forum?id=keCXNHOe4W)
+  - Kefan Song, Amir Moeini, Peng Wang, Lei Gong, Rohan Chandra, Shangtong Zhang, Yanjun Qi
+  - Key: In-Context RL, LLM, Test-Time Scaling, Scalar Feedback
+  - ExpEnv: LLM reasoning, creative, scientific tasks
+
+- [Scalable In-Context Q-Learning](https://openreview.net/forum?id=NuGAhTDYTd)
+  - Jinmei Liu, Fuhong Liu, Zhenhong Sun, Jianye Hao, Huaxiong Li, Bo Wang, Daoyi Dong, Chunlin Chen, Zhi Wang
+  - Key: In-Context RL, Q-Learning, Advantage-Weighted Regression, World Model, Transformer
+  - ExpEnv: ICRL benchmarks
+
+- [In-Context Learning for Pure Exploration](https://openreview.net/forum?id=NFCNFvDYfE)
+  - Alessio Russo, Ryan Welch, Aldo Pacchiano
+  - Key: Pure Exploration, Active Sequential Hypothesis Testing, In-Context Learning, Best-Arm Identification
+  - ExpEnv: best-arm identification, generalized search benchmarks
+
+- [Offline Reinforcement Learning with Adaptive Feature Fusion](https://openreview.net/forum?id=uD9UT0gHLH)
+  - Tieru Wang, Kunbao Wu, Guoshun Nan
+  - Key: Decision Transformer, Return-Conditioned Supervised Learning, Offline RL, Trajectory Stitching
+  - ExpEnv: D4RL
+
+- [Peak-Return Greedy Slicing: Subtrajectory Selection for Transformer-based Offline RL](https://openreview.net/forum?id=7vpehpWnnY)
+  - Zhiwei Xu, Miduo Cui, Dapeng Li, Zhihao Liu, Haifeng Zhang, Hangyu Mao, Guoliang Fan, Bin Zhang
+  - Key: Transformer-Based Offline RL, Subtrajectory Selection, Return-to-Go, Stitching
+  - ExpEnv: offline RL benchmarks
+
+- [TrojanTO: Action-Level Backdoor Attacks Against Trajectory Optimization Models](https://openreview.net/forum?id=CNrU5kGJYG)
+  - Yang Dai, Oubo Ma, Xingxing Liang, Longfei Zhang, Xiaochun Cao, Shouling Ji, Jiaheng Zhang, Jincai Huang, Li Shen
+  - Key: Decision Transformer, Backdoor Attacks, Offline RL, Trajectory Optimization
+  - ExpEnv: D4RL (DT/TT)
+
+- [GAS: Enhancing Reward-Cost Balance of Generative Model-assisted Offline Safe RL](https://openreview.net/forum?id=sGrrKMK0cn)
+  - Zifan Liu, Xinran Li, Shibo Chen, Jun Zhang
+  - Key: Offline Safe RL, Constrained Decision Transformer, Trajectory Stitching, Generative Models
+  - ExpEnv: offline safe RL
+
 
 ### NeurIPS 2025
 
